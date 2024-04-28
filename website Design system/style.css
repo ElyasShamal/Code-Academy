@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.colors-section {
+  width: 80%;
+  margin: 20px auto;
+  border: 2px solid gray;
+}
+
+.color-container {
+  display: block;
+  color: white;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.colors {
+  padding: 60px 0px;
+}
+
+#red {
+  display: inline-block;
+  background-color: red;
+  height: 150px;
+  width: 250px;
+}
+
+#black {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  height: 150px;
+  width: 250px;
+}
+
+#green {
+  display: inline-block;
+  background-color: greenyellow;
+  color: white;
+  height: 150px;
+  width: 250px;
+}
+
+#purple {
+  display: inline-block;
+  background-color: purple;
+  color: white;
+  height: 150px;
+  width: 250px;
+}
