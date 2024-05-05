@@ -9,6 +9,11 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <!--google font-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+      rel="stylesheet"
+    />
     <!--CSS Link-->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -32,8 +37,24 @@
     <!--Main-->
     <main class="main">
       <section class="checkout">
-        <h1 class="title">checkout Details</h1>
-        <p>Please enter your information below. All fields are required.</p>
+        <h1 class="title">Checkout Details</h1>
+        <p class="description">
+          Please enter your information below. All fields are required.
+        </p>
+      </section>
+
+      <section class="form-section" aria-label="contach-form">
+        <form action="/" method="post" class="form">
+          <div class="alert">
+            <p class="information">
+              <i
+                class="fa fa-exclamation-triangle"
+                style="font-size: 18px; color: orange"
+              ></i>
+              Looks like your forgot to add your Payment Method!
+            </p>
+          </div>
+        </form>
       </section>
     </main>
   </body>
