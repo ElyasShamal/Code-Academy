@@ -1,5 +1,112 @@
-& {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: seashell;
+}
+
+html {
+  font-family: Helvetica, sans-serif;
+  background-color: black;
+  color: seashell;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 69px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 1000;
+  scroll-behavior: smooth;
+}
+
+.navigation-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.list-items {
+  margin-right: 40px;
+  font-size: 22px;
+}
+
+.list-items a {
+  text-decoration: underline;
+}
+
+.logo {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.container {
+  height: 700px;
+  margin-top: 69px;
+  width: 100%;
+}
+
+.container-image {
+  width: 100%;
+  background-position: center;
+  height: 700px;
+}
+
+.image-section {
+  margin: 0 auto;
+  width: 78%;
+}
+
+/* Bunner section */
+.bunner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 55%;
+  bottom: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 140px;
+  width: 79%;
+  max-width: 100%;
+  text-align: center;
+  background-color: black;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.bunner h3 {
+  margin-top: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+/* Tea section */
+
+.Tea-section {
+  width: 1000px;
+  max-width: 100%;
+  height: 500px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bolder;
+  margin: 0 auto;
+}
+.tea-title {
+  margin-top: 3rem;
+}
+
+.Tea-description {
+  padding-top: 0.6rem;
 }
