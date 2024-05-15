@@ -108,3 +108,16 @@ footer {
   color: #999999;
   text-align: center;
 }
+
+.contact i {
+  margin: 20px;
+  color: black;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .post {
+    width: 100%;
+    font-size: 17px;
+  }
+}
