@@ -17,7 +17,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 46rem;
+  height: 36rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,7 +43,7 @@ body {
 }
 
 .post {
-  margin-top: 8.5%;
+  margin-top: 4.5%;
   margin-bottom: 7.5%;
   width: 52%;
   display: flex;
