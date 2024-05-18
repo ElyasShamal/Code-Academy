@@ -6,17 +6,27 @@
     <title>Tsunami Coffee</title>
     <!-- Css link -->
     <link rel="stylesheet" href="style.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <div class="main">
       <nav class="navbar container">
-        <ul>
-          <li>Store</li>
-          <li>Hours</li>
-          <li>Wholesale</li>
-        </ul>
+        <h1>Tsunami</h1>
+        <div class="menu-item">
+          <ul>
+            <li>Store</li>
+            <li>Hours</li>
+            <li>Wholesale</li>
+          </ul>
+        </div>
+        <div class="menu-toggle"><i class="fa fa-bars" id="bars"></i></div>
       </nav>
-      <img src="./images/logo.webp" alt="logo" />
+
+      <img src="./images/logo.webP" alt="logo" />
     </div>
 
     <div class="container supporting">
@@ -41,7 +51,7 @@
     </div>
 
     <div class="container gallery">
-      <img src="./images/latte.webp" alt="latte" />
+      <img src="./images/latte.webP" alt="latte" />
       <img src="./images/coffee-man.webp" alt="coffee-man" />
       <img src="./images/pastries.webp" alt="cofee-cap" />
       <div class="clearfix"></div>
@@ -65,5 +75,7 @@
         </nav>
       </div>
     </footer>
+
+    <script src="./main.js"></script>
   </body>
 </html>
