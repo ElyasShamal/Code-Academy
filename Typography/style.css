@@ -186,4 +186,9 @@ footer em {
     margin-bottom: 2rem;
     overflow: hidden;
   }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
 }
