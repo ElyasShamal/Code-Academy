@@ -47,7 +47,7 @@ nav a {
   font-size: 1rem;
   color: #4a4a4a;
   text-decoration: none;
-  font-family: Roboto-Regular, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 header .icon {
@@ -169,7 +169,7 @@ header .mobile {
 
 .content-description h2 {
   color: #4a4a4a;
-  font-size: 36px;
+  font-size: 2.3rem;
   font-family: "Roboto" sans-serif;
   line-height: 1.2;
   font-weight: bold;
@@ -201,7 +201,7 @@ header .mobile {
 .filter-center h2 {
   color: white;
   opacity: 100%;
-  font-size: 36px;
+  font-size: 2.3rem;
   font-family: "Roboto" sans-serif;
   font-weight: bold;
 }
@@ -254,17 +254,25 @@ header .mobile {
 
 footer {
   background-color: #9b9b9b;
-  padding: 5rem 2rem;
+  padding: 3rem 2rem;
 }
 
 footer .content-footer {
   color: white;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
   font-size: 0.75rem;
 }
 
-footer .copyright {
-  flex-grow: 1;
+.links {
+  margin-top: 1rem;
+}
+
+.links a {
+  padding-right: 20px;
+  color: white;
 }
 
 /* Media quries */
