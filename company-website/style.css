@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lexend Mega", sans-serif;
+  color: black;
+  background-color: whitesmoke;
+  font-size: 22px;
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+}
+
+.title {
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style-type: none;
+  color: black;
+  padding-top: 10px;
+}
+
+ul a {
+  color: black;
+  font-family: "Lexend Mega", sans-serif;
+}
+
+.main-container {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.main-container img {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+}
+
+.banner {
+  position: relative;
+  top: -240px;
+  background-color: white;
+  width: 100%;
+}
+
+.banner h4 {
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.banner h2 {
+  padding-top: 1rem;
+}
+
+.content {
+  position: absolute;
+  background-color: whitesmoke;
+  width: 100%;
+}
+
+.content-portfolio h2 {
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+}
+
+.companys {
+  margin: 2rem auto;
+  width: 95%;
+  display: grid;
+  gap: 20px;
+}
+
+.images-container {
+  text-align: center;
+}
+
+.images-container img {
+  width: 300px;
+  height: auto;
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .companys {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .companys > .images-container:nth-child(4),
+  .companys > .images-container:nth-child(5) {
+    grid-column: span 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .companys {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .companys > .images-container:nth-child(4),
+  .companys > .images-container:nth-child(5) {
+    grid-column: span 1;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .main-container img {
+    min-height: 100%;
+  }
+
+  .banner h4 {
+    display: none;
+  }
+
+  .banner h2 {
+    padding: 40px 0;
+  }
+}
