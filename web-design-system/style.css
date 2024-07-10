@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .colors-section {
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid gray;
+    padding-bottom: 20px;
+  }
+  
+  .color-container {
+    display: block;
+    color: white;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .colors {
+    padding: 30px 0px;
+  }
+  
+  #red {
+    display: inline-block;
+    background-color: #ff0000;
+    height: 150px;
+    width: 250px;
+  }
+  
+  #black {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    height: 150px;
+    width: 250px;
+  }
+  
+  #green {
+    display: inline-block;
+    background-color: #00ff00;
+    color: white;
+    height: 150px;
+    width: 250px;
+  }
+  
+  #purple {
+    display: inline-block;
+    background-color: #a020f0;
+    color: white;
+    height: 150px;
+    width: 250px;
+  }
+  
+  .subtitle {
+    padding-top: 20px;
+    margin: 10px 60px;
+    font-size: 18px;
+  }
+  
+  .title {
+    margin: 20px 140px;
+  }
+  
+  .font-container {
+    color: black;
+  }
+  
+  .font-container div {
+    display: inline-block;
+    width: 500px;
+    padding: 0px 60px;
+    margin-bottom: 30px;
+  }
+  
+  .bold {
+    font-weight: bold;
+    padding: 10px 0px;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  .names {
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .text-title {
+    padding: 5px 60px;
+  }
+  
+  .listitems {
+    margin-left: 80px;
+    margin-top: 20px;
+  }
