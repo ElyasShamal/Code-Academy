@@ -1,1 +1,195 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+  }
+  
+  /* Navbar  */
+  .navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 30px;
+  
+    border-bottom: 1px solid black;
+  }
+  
+  .navbar ul li {
+    display: inline-block;
+    margin: 0px 30px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 18px;
+  }
+  
+  .navbar ul li a:hover {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+  }
+  
+  /* container */
+  
+  .container {
+    background: url("https://content.codecademy.com/courses/freelance-1/unit-6/project-morocco/banner.jpg")
+      center center no-repeat;
+    height: 40.5rem;
+    background-size: cover;
+    color: #ffb78c;
+  }
+  
+  /* bunner */
+  .bunner {
+    width: 100%;
+    height: 20rem;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 40%;
+  }
+  
+  .bunner h1 {
+    font-size: 6rem;
+    text-align: center;
+  }
+  
+  .bunner h2 {
+    text-align: center;
+    border-bottom: 4px solid #ffb78c;
+    border-top: 4px solid #ffb78c;
+    width: fit-content;
+    margin: auto;
+  }
+  
+  .bunner div {
+    margin-top: 6%;
+  }
+  
+  /* journal section */
+  
+  .journal {
+    width: 100%;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #ffb78c;
+    padding-bottom: 4rem;
+  }
+  
+  .first-photo {
+    padding: 20px;
+    background-color: white;
+    width: fit-content;
+    margin: 0px auto;
+    max-width: 100%;
+    position: relative;
+    bottom: 60px;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+    width: 450px;
+    padding-bottom: 20px;
+    align-items: center;
+  }
+  
+  .caption {
+    font-style: italic;
+  }
+  
+  p {
+    width: 500px;
+    margin: 0px auto;
+    text-align: left;
+    /* margin-top: 2rem; */
+    max-width: 100%;
+    padding: 20px 20px;
+    font-family: Verdana, sans-serif;
+    background-color: white;
+  }
+  
+  .journal .first-letter {
+    float: left;
+    padding-right: 1.4rem;
+    font-family: "Abril Fatface", serif;
+    font-size: 7.44rem;
+    color: #10b0d8;
+    line-height: 0.87;
+  }
+  
+  .photo {
+    display: inline-block;
+  }
+  
+  .image-container img {
+    width: 500px;
+    margin: 20px 0px;
+  }
+  
+  .caption {
+    display: block;
+    margin: 30px 0px;
+  }
+  
+  .quote {
+    display: block;
+    margin: 20px 0px;
+  }
+  
+  footer {
+    display: flex;
+    align-items: center;
+    padding: 0 1%;
+    background-color: #212121;
+    line-height: 1.5;
+    font-family: "Croissant One", sans-serif;
+  }
+  
+  footer .image-container {
+    width: 400px;
+  }
+  
+  footer .content {
+    flex-grow: 1;
+    font-style: italic;
+    color: #9b9b9b;
+  }
+  
+  footer p {
+    padding-bottom: 1.66rem;
+  }
+  
+  footer p:last-child {
+    padding-bottom: 0;
+  }
+  
+  footer .author {
+    color: #ffb78c;
+  }
+  
+  footer em {
+    color: #cfcfcf;
+  }
+  
+  @media only screen and (max-width: 750px) {
+    footer {
+      flex-direction: column;
+      padding: 0 10% 2rem 10%;
+    }
+  
+    footer .image-container {
+      height: 300px;
+      margin-bottom: 2rem;
+      overflow: hidden;
+    }
+  
+    .navbar {
+      display: flex;
+      flex-direction: column;
+    }
+  }
