@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    text-align: center;
+    margin: 100px auto;
+    width: 80%;
+    border: 1px dashed gray;
+  }
+  
+  .header {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+  }
+  
+  .magic-ball {
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button {
+    padding: 8px 30px;
+    margin-left: 20px;
+    margin-bottom: 3rem;
+    font-size: 16px;
+  }
+  
+  #magic-ball-text {
+    font-size: 20px;
+  }
+  
+  .magic-ball {
+    margin: 20px 0;
+  }
+  .magic-ball span {
+    transition: transform 0.5s ease-in-out;
+  }
+  .spin {
+    animation: spin 0.5s ease-in-out;
+  }
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
