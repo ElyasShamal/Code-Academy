@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto" sans-serif;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #34474f;
+    padding: 20px 0px;
+    color: white;
+    border-bottom: 1px solid white;
+    /* position: fixed;
+    width: 100%; */
+  }
+  
+  .logo {
+    color: orange;
+    font-size: 2rem;
+  }
+  
+  .Login {
+    background-color: orange;
+    color: white;
+    padding: 8px 30px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .fa-search {
+    padding-right: 30px;
+    cursor: pointer;
+  }
+  
+  span {
+    padding-right: 30px;
+  }
+  
+  .search-bar input {
+    padding: 10px 30px;
+    width: 550px;
+  }
+  
+  .main {
+    background-color: #34474f;
+    height: 500px;
+    color: white;
+    padding-top: 1rem;
+  }
+  
+  .checkout {
+    width: 80%;
+    background-color: #34474f;
+    /* margin: 10px auto; */
+    margin: 0px auto; /* need to changed to 0 from the top*/
+  }
+  
+  .title {
+    /* padding-top: 6rem; */
+    font-size: 2rem;
+    font-family: "Roboto" sans-serif;
+  }
+  
+  .description {
+    margin: 5px 0px;
+    font-size: 18px;
+    color: rgb(182, 178, 178);
+  }
+  
+  .form-section {
+    position: relative;
+    width: 80%;
+    margin: 0px auto;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  
+  .form {
+    background-color: white;
+    width: 100%;
+    border-radius: 20px;
+  }
+  
+  .alert {
+    padding: 10px 10px;
+    background-color: gray;
+    max-width: 50%;
+    border-radius: 10px;
+  }
+  
+  .information {
+    color: rgb(216, 213, 213);
+  }
+  
+  .order-description h1 {
+    padding-top: 10px;
+    color: black;
+  }
+  .fullname-label,
+  label {
+    color: black;
+  }
+  
+  /* .order-description {
+    width: 40%;
+  }
+  
+  .forms-data :first-child {
+    display: block;
+  }
+  
+  .forms-data input {
+    display: inline;
+    width: 30%;
+  }
+  
+  .flex {
+    display: inline-block;
+    padding: 0px 60px;
+  } */
+  
+  .order-description {
+    margin: 20px 0px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+  }
+  
+  .order-description h1 {
+    margin-bottom: 10px;
+  }
+  
+  .forms-data {
+    margin-bottom: 20px;
+  }
+  
+  .forms-data label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .forms-data input[type="text"],
+  .forms-data input[type="email"],
+  .forms-data input[type="tel"] {
+    width: calc(50% - 5px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .forms-data input[type="text"]:last-child,
+  .forms-data input[type="email"]:last-child,
+  .forms-data input[type="tel"]:last-child {
+    margin-bottom: 0;
+  }
+  
+  .forms-data input[type="text"]:focus,
+  .forms-data input[type="email"]:focus,
+  .forms-data input[type="tel"]:focus {
+    border-color: #007bff;
+  }
+  
+  .forms-data label[for="city"],
+  .forms-data label[for="state"],
+  .forms-data label[for="zip Code"],
+  .forms-data label[for="phonenumber"],
+  .forms-data label[for="email"],
+  .forms-data input[name="city"],
+  .forms-data input[name="state"],
+  .forms-data input[name="zip Code"] {
+    width: calc(33.33% - 5px);
+    display: inline-block;
+  }
+  
+  .forms-data label[for="phonenumber"] {
+    margin-left: 5.5rem;
+  }
+  
+  .forms-data input[name="address"] {
+    width: 99%;
+  }
+  
+  .subtitle {
+    margin-top: 2rem;
+  }
+  
+  .checkout {
+    width: 100%;
+    background-color: #34474f;
+  }
