@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pinpoint E Commerce</title>
+    <!-- fontawesome icon-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!--google font-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+      rel="stylesheet"
+    />
+    <!--CSS Link-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Header-->
+    <header class="header">
+      <div>
+        <span class="logo">Pin Point</span>
+        <!-- <span>Categories</span>
+        <span style="color: orange"> Your Cart</span> -->
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Seach ..." />
+      </div>
+      <div class="search-buttom">
+        <i class="fa fa-search" style="font-size: 22px"></i>
+        <button class="Login">Login</button>
+      </div>
+    </header>
+
+    <!--Main-->
+    <main class="main">
+      <section class="checkout">
+        <h1 class="title">Checkout Details</h1>
+        <p class="description">
+          Please enter your information below. All fields are required.
+        </p>
+      </section>
+
+      <section class="form-section" aria-label="contach-form">
+        <form action="/" method="post" class="form">
+          <div class="alert">
+            <p class="information">
+              <i
+                class="fa fa-exclamation-triangle"
+                style="font-size: 18px; color: orange"
+              ></i>
+              Looks like your forgot to add your Payment Method!
+            </p>
+          </div>
+          <div class="order-description">
+            <!-- <h1>1. Billing Details</h1> 
+            <div class="forms-data">
+              <label for="fullname" class="fullname-label">Full Name</label>
+              <input type="text" name="fullname" placeholder="Full Name" />
+              <input type="text" name="lastname" placeholder="Last Name" />
+              <br />
+              <label for="email">Your Email</label>
+              <label for="phonenumber">Phone Number</label>
+
+              <input type="email" name="email" placeholder="@Email.com" />
+              <input type="tel" name="phonenumber" placeholder="111-222-3334" />
+              <br />
+              <label for="address">Address</label>
+              <input type="text" placeholder="Address" name="address" /> <br />
+              <label for="city"> City</label>
+              <label for="state"> State</label>
+              <label for="zip Code">Zip Code</label>
+              <input type="text" name="city" placeholder="City" />
+              <input type="text" name="state" placeholder="State" />
+              <input type="text" name="zip Code" placeholder="Zip Code" />
+            </div> -->
+            <h1 class="subtitle">1. Shipping Details</h1>
+            <div class="forms-data">
+              <label for="fullname" class="fullname-label">Full Name</label>
+              <input type="text" name="fullname" placeholder="Full Name" />
+              <input type="text" name="lastname" placeholder="Last Name" />
+              <label for="address">Address</label>
+              <input type="text" placeholder="Address" name="address" /> <br />
+              <label for="city"> City</label>
+              <label for="state"> State</label>
+              <label for="zip Code">Zip Code</label>
+              <input type="text" name="city" placeholder="City" />
+              <input type="text" name="state" placeholder="State" />
+              <input type="text" name="zip Code" placeholder="Zip Code" />
+            </div>
+
+            <div>
+              <h1 class="subtitle">2. Payment Method</h1>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
