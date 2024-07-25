@@ -12,7 +12,7 @@ body {
 }
 
 .main {
-  background-image: url("./images/bg-photo.webP");
+  background-image: url("./images/bg-photo.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
