@@ -5,8 +5,25 @@ const resultArray = [];
 const whaleButton = document.getElementById("whale-talk");
 
 whaleButton.addEventListener("click", () => {
-  let userInput = document.getElementById("user").value;
+  let userInput = document.getElementById("user").value.trim();
   const resultArray = [];
+
+function showCustomAlert(message) {
+    document.getElementById('alert-message').textContent = message;
+    document.getElementById('custom-alert').classList.remove('hidden');
+}
+
+function hideCustomAlert() {
+    document.getElementById('custom-alert').classList.add('hidden');
+}
+
+document.getElementById('alert-ok').addEventListener('click', hideCustomAlert);
+
+
+if (userInput === "") {
+    showCustomAlert("Please add a sentence");
+    return;
+}
 
   for (let inputIndex = 0; inputIndex < userInput.length; inputIndex++) {
     if (userInput[inputIndex] === "e" || userInput[inputIndex] === "u") {
@@ -27,6 +44,7 @@ whaleButton.addEventListener("click", () => {
   newElements.appendChild(listItems);
   listItems.innerHTML = resultStr;
 
+
   const deleteButton = document.createElement("button");
   deleteButton.innerHTML = "Delete";
   deleteButton.className = "delete-button";
@@ -34,6 +52,7 @@ whaleButton.addEventListener("click", () => {
     newElements.removeChild(listItems);
   });
 
+  
   listItems.appendChild(deleteButton);
   newElements.appendChild(listItems);
   document.getElementById("user").value = "";
