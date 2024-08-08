@@ -1,4 +1,4 @@
-onst { constants } = require("buffer");
+const { constants } = require("buffer");
 
 let humanScore = 0;
 let computerScore = 0;
